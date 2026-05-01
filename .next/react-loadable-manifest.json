@@ -1,0 +1,10 @@
+{
+  "pages/[[...slug]].tsx -> @/App": {
+    "id": 16,
+    "files": [
+      "static/chunks/5330eab6.9110666d785a6692.js",
+      "static/chunks/378.4707e3b427386080.js",
+      "static/chunks/16.32735d37e3dd3a6a.js"
+    ]
+  }
+}
