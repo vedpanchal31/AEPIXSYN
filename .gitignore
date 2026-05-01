@@ -7,9 +7,15 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+.next/
+out/
+
+# Local-only files
 *.local
 
 # Editor directories and files
@@ -26,4 +32,12 @@ dist-ssr
 .env
 .env.local
 
-package-lock.json
+# Caches / tooling
+coverage/
+.nyc_output/
+.eslintcache
+*.tsbuildinfo
+.turbo/
+.vercel/
+.vite/
+.cache/
